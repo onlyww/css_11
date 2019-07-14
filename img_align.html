@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            margin: 20px auto;
+            border: 1px solid red;
+        }
+
+        .box:before {
+            content: '';
+            height: 200px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .logo {
+            width: 100px;
+            height: 100px;
+            vertical-align: middle;
+            background: #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <img class="logo" src="logo.png" alt="logo">
+    </div>
+</body>
+
+</html>
