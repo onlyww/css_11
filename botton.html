@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            height: 100px;
+            margin-top: 20px;
+            position: relative;
+            background: #ccc;
+        }
+
+        .container .btn {
+            top: 50%;
+            left: 50%;
+            color: white;
+            list-style: none;
+            position: absolute;
+            transform: translate(-50%, -50%);
+        }
+
+        .btn li {
+            float: left;
+            height: 20px;
+            padding: 2px;
+            margin-right: 5px;
+            background: red;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <ul class="btn">
+            <li>按钮1</li>
+            <li>按钮2</li>
+            <li>按钮3</li>
+        </ul>
+    </div>
+</body>
+
+</html>
